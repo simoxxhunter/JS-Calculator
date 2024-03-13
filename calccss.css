@@ -2,6 +2,47 @@
     margin: 0%;
     padding: 0%;
 }
-.div {
+
+
+.calculator {
+    background-color: yellowgreen;
+    width: calc(270px + 0.9vw);
+    height: 20%;
+    margin-left: 37.5%;
+    margin-top: 7%;
+    border-radius: 40px;
+    justify-content: space-evenly;
+
+
+}
+
+.double {
+    background-color: teal;
+    width: 45%;
     border-radius: 20px;
+}
+
+.display {
+    height: 60px;
+    background-color: orange;
+    border-radius: 20px;
+    width: 95% ;
+
+}
+
+.button {
+    background-color: red;
+    width: 20%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 55px;
+}
+
+.row {
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+
 }
