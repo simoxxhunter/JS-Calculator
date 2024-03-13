@@ -20,6 +20,10 @@
     background-color: teal;
     width: 45%;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .display {
@@ -27,6 +31,9 @@
     background-color: orange;
     border-radius: 20px;
     width: 95% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -38,7 +45,11 @@
     justify-content: center;
     border-radius: 20px;
     height: 55px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
+
 
 .row {
     display: flex;
