@@ -10,16 +10,17 @@
 <body>
     <div class="calculator">
         <div class="row">
-            <div class="display">
-                <div class="memo">fjg??</div>
-                <div class="total">dfd</div>
+            <div class="display" id="display">
+                <div class="memo" id="memo">fjg??</div>
+                <div class="total" id="total">dfd</div>
             </div>
         </div>
 
         <div class="row">
-            <div class="double">C</div>
+            <div class="double" onclick="document.getElementById('memo').innerHTML = ''; document.getElementById('total').innerHTML = '';">CA</div>
+
             <div class="button">CE</div>
-            <div class="button">+</div>
+            <div class="button"  onclick="document.getElementsByClassName('total')[0].innerHTML += '+'">+</div>
         </div>
         <div class="row">
             <div class="button"  onclick="document.getElementsByClassName('total')[0].innerHTML += '7'">7</div>
