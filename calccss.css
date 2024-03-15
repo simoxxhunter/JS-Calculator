@@ -32,9 +32,12 @@
     border-radius: 20px;
     width: 95% ;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-
+    gap: 20px;
+}
+#memo , #total {
+    margin-left: 180px;
 }
 
 .button {
