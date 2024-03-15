@@ -21,28 +21,27 @@
 
         <div class="row">
             <div class="double" onclick="clearAll()">CA</div>
-
             <div class="button">CE</div>
-            <div class="button" onclick="multipleADDOperations('+')">+</div>
+            <div class="button" onclick="multipleADDOperations('+') ; checkOperator('+')">+</div>
         </div>
         <div class="row">
             <div class="button" onclick="document.getElementsByClassName('total')[0].innerHTML += '7'">7</div>
             <div class="button" onclick="document.getElementsByClassName('total')[0].innerHTML += '8'">8</div>
             <div class="button" onclick="document.getElementsByClassName('total')[0].innerHTML += '9'">9</div>
-            <div class="button" onclick="multipleSUBOperations('-')">-</div>
+            <div class="button" onclick="multipleSUBOperations('-') ; checkOperator('-')">-</div>
 
         </div>
         <div class="row">
             <div class="button" onclick="document.getElementsByClassName('total')[0].innerHTML += '4'">4</div>
             <div class="button" onclick="document.getElementsByClassName('total')[0].innerHTML += '5'"> 5</div>
             <div class="button" onclick="document.getElementsByClassName('total')[0].innerHTML += '6'">6</div>
-            <div class="button" onclick="multipleMULOperations('*')">*</div>
+            <div class="button" onclick="multipleMULOperations('*'); checkOperator('*')">*</div>
         </div>
         <div class="row">
             <div class="button" onclick="document.getElementsByClassName('total')[0].innerHTML += '1'">1</div>
             <div class="button" onclick="document.getElementsByClassName('total')[0].innerHTML += '2'">2</div>
             <div class="button" onclick="document.getElementsByClassName('total')[0].innerHTML += '3'">3</div>
-            <div class="button" onclick="multipleDIVOperations('/')">/</div>
+            <div class="button" onclick="multipleDIVOperations('/') ; checkOperator('/')">/</div>
         </div>
         <div class="row">
             <div class="button" onclick="document.getElementsByClassName('total')[0].innerHTML += '.'">.</div>

@@ -69,3 +69,9 @@ function multipleMULOperations(operation) {
     totalDisplay.innerHTML += operation;
 }
 
+function checkOperator(operation) {
+    var totalDisplay = document.getElementById('total');
+    var currentDisplay = totalDisplay.innerHTML;
+
+    totalDisplay.innerHTML = currentDisplay.replace(/[+\-*/]$/, operation);
+}
